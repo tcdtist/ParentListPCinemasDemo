@@ -1,3 +1,2 @@
-https://tcdtist.github.io/ParentListPCinemasDemo/.
-link demo:
+link demo: https://tcdtist.github.io/ParentListPCinemasDemo/.
 # ParentListPCinemasDemo
