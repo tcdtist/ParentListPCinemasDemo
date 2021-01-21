@@ -1,0 +1,146 @@
+@media (min-width: 1200px) {
+}
+@media (max-width: 1200px) {
+  .cinemaBlock {
+    .fix-padding {
+      padding-right: 0px !important;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    .middle {
+      display: none;
+    }
+  }
+
+  .carousel {
+    .homeTools {
+      display: none;
+    }
+  }
+
+  .homeApp {
+    padding: 30px 0 80px 0;
+    .container {
+      max-width: 100%;
+      margin: 0 auto;
+      .details {
+        text-align: center;
+      }
+      .left {
+        padding-bottom: 1rem;
+      }
+    }
+  }
+
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+
+  .newsBlock {
+    .tab-pane {
+      padding: 0 2rem;
+    }
+  }
+
+  .footer {
+    .infoFooter {
+      text-align: center;
+    }
+
+    .hideOnMobile {
+      display: none;
+    }
+
+    .keep {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    .middle {
+      display: none;
+    }
+    .right {
+      .hideOnMobile {
+        display: none;
+      }
+      i.fa-align-right {
+        display: block !important;
+      }
+    }
+  }
+
+  .cinemaBlock {
+    display: none;
+  }
+
+  .filmBlock {
+    .hideDescribe {
+      display: none;
+    }
+  }
+  .footer {
+    .keep {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .keep a {
+      margin: 0 0.5rem;
+    }
+    .row .logo {
+      justify-content: center;
+      img {
+        margin: 0 0.5rem;
+      }
+    }
+
+    .lastFooter {
+      flex-direction: column;
+      align-items: center;
+      .col-sm-1 {
+        padding: initial;
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .newsBlock {
+    // overflow-x: hidden;
+    .mini {
+      width: 100%;
+    }
+  }
+
+  .lastFooter {
+    flex-direction: column;
+    align-items: center;
+
+    .police {
+      width: 150px !important;
+      text-align: center;
+    }
+
+    .col-12 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: initial;
+    }
+    .infoFooter {
+      padding-left: initial;
+      padding: 1rem 1rem;
+    }
+  }
+}

@@ -1,0 +1,142 @@
+.cinemaBlock {
+  overflow-x: hidden;
+  background-image: url(./../../img/back-news.png);
+  padding-top: 120px;
+  padding-bottom: 50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  .wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    border: 1px solid #ebebec;
+    background-color: #fff;
+    border-radius: 6px;
+    max-height: 705px;
+    .row{
+      margin-right: -1px !important;
+    }
+    .col-8 {
+      max-height: 705px;
+      padding-left: 0px;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+    .nav-pills .nav-link.active {
+      background-color: transparent;
+      color: inherit;
+      opacity: 1;
+    }
+    .nav-link {
+      padding: 1rem 1rem;
+      position: relative;
+      border-right: 1px solid #ebebeb;
+      border-radius: 0%;
+      opacity: 0.5;
+      transition: all 0.3s;
+
+      &:hover,
+      &:active {
+        opacity: 1;
+      }
+
+      &::after {
+        position: absolute;
+        bottom: 0;
+        left: 15%;
+        content: "";
+        height: 1px;
+        background-color: #ebebeb;
+        width: 70%;
+      }
+
+      .details {
+        .img {
+          padding-right: 0.7rem;
+          img {
+            width: 50px;
+          }
+        }
+        .describe {
+          font-size: 14px;
+          p {
+            color: #000;
+            margin: initial;
+
+            .green {
+              color: #8bc541;
+            }
+          }
+          p.address {
+            font-size: 12px;
+            color: #949494;
+          }
+          p.moreInfo {
+            font-size: 12px;
+            color: #fb4226;
+          }
+        }
+      }
+    }
+    .big-details {
+      padding: 15px 0px 15px 0px;
+      .wrapInfo {
+        .img {
+          padding-right: 1rem;
+        }
+      }
+
+      .titleInfo {
+        margin-top: 0.3rem;
+        span {
+          background-color: #fb4226;
+          color: #fff;
+          border-radius: 4px;
+          padding: 2px 5px;
+          margin-right: 5px;
+          font-size: 12px;
+          min-width: 33px;
+          float: left;
+        }
+        .movieTitle {
+          display: inline-block;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 22px;
+          overflow: hidden;
+          margin: initial;
+        }
+
+        .info {
+          line-height: 1.7;
+          font-size: 12px;
+          color: #9b9b9b;
+        }
+      }
+
+      .typeTiming {
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid #ebebeb;
+        .version {
+          font-weight: 500;
+          margin-bottom: 0.5rem;
+        }
+        .session {
+          a {
+            text-decoration: none;
+            color: #9b9b9b;
+            padding: 0.5rem 0.8rem;
+            background-color: #fbfbfb;
+            margin: 0 10px 10px 0;
+            border-radius: 7px;
+            border: 1px solid #9b9b9b;
+            span {
+              font-size: 18px;
+              color: #108f3e;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+  }
+}

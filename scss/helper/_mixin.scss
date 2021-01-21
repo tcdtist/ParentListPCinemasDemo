@@ -1,0 +1,45 @@
+@mixin slider() {
+  .nav-tabs {
+    .nav-link.active {
+      color: #fa5238;
+      font-size: 24px;
+      background-color: #fff;
+      border-color: #fff;
+    }
+    .nav-link {
+      color: #000;
+      font-size: 20px;
+      background-color: #fff;
+      border-color: #fff;
+      transition: all 0.2s;
+      line-height: 24px;
+      font-weight: 500;
+
+      &:hover {
+        font-size: 1.5rem;
+      }
+    }
+    border: none;
+  }
+  .slick-prev {
+    color: #000;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    margin-right: 2rem;
+    margin-bottom: 6rem;
+  }
+
+  .slick-next {
+    color: #000;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    margin-left: 2rem;
+    margin-bottom: 6rem;
+  }
+}
