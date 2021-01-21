@@ -96,17 +96,18 @@
 }
 
 .fix-scroll::-webkit-scrollbar-track {
-  border-radius: 7px;
+  border-radius: 6px;
 }
 
 .fix-scroll::-webkit-scrollbar {
   width: 4px;
   background-color: #e8e3e3;
+  border-radius: 10px;
 }
 
 .fix-scroll::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
 .fix-scroll {
@@ -119,7 +120,7 @@
 
 .cinemaBlock {
   overflow-x: hidden;
-  background-image: url(./../../img/back-news.png);
+  background-image: linear-gradient(to bottom right, #0a5c23, #5ae96d);
   padding-top: 120px;
   padding-bottom: 50px;
   background-size: 100%;
